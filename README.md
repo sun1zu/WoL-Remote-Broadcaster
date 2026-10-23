@@ -5,7 +5,7 @@ A script for NodeMCU that accepts WoL packets, filters them by target MAC addres
 Most routers do not allow forwarding external WoL broadcast packets (192.168.0.255) from the WAN interface to the LAN for security reasons. This script turns a cheap NodeMCU into a secure proxy bridge that listens for your specific external request and wakes your PC from inside the network.
 
 ## Usage
-With this setup you can safely enable your PC or any other WoL-compatible device using Wake-on-LAN from _anywhere_, as long as internet is accessible.
+With this setup you can safely enable your PC or any other WoL-compatible device using Wake-on-LAN from _anywhere_, as long as internet is accessible. (any WoL-app will do, for example - [that one](https://github.com/sun1zu/PCPowerEnabler))
 
 ## Quick setup
 1. Make sure you have a static (fixed) IP address 
